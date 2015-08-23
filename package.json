@@ -1,0 +1,16 @@
+{
+  "name": "course-reserves-bot",
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "google-spreadsheet": "^1.0.1",
+    "googleapis": "~2.1.3"
+  },
+  "scripts": {
+    "build-index": "node build-docs-json.js"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  }
+}
